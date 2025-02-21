@@ -1,5 +1,19 @@
 # starlight-theme-flexoki
 
+## 0.0.3
+
+### Patch Changes
+
+- [`e1730ee`](https://github.com/delucis/starlight-theme-flexoki/commit/e1730ee89740ca433f07cfb4b529679f5ac1ea9c) Thanks [@delucis](https://github.com/delucis)! - Improves main navigation sidebar styles
+
+- [`69e1c38`](https://github.com/delucis/starlight-theme-flexoki/commit/69e1c382a8225847ce168d5aff03657dee3e5609) Thanks [@delucis](https://github.com/delucis)! - Adds support for switching between accent colors
+
+- [`74c9c0f`](https://github.com/delucis/starlight-theme-flexoki/commit/74c9c0fbc77224db059f6bb87d5396c85cf1ac11) Thanks [@delucis](https://github.com/delucis)! - Improves search modal styles
+
+- [`26695df`](https://github.com/delucis/starlight-theme-flexoki/commit/26695df1f869f739ab564a26a488b355dee38c6c) Thanks [@delucis](https://github.com/delucis)! - Makes text in page footer (edit links, last-updated date) slightly smaller
+
+- [`9bea76b`](https://github.com/delucis/starlight-theme-flexoki/commit/9bea76be60319ebed107ced22e9b9fd4760aa709) Thanks [@delucis](https://github.com/delucis)! - Adds slightly more spacing between list items with rich content
+
 ## 0.0.2
 
 ### Patch Changes
