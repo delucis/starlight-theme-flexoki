@@ -1,5 +1,17 @@
 # starlight-theme-flexoki
 
+## 0.1.0
+
+### Minor Changes
+
+- [`67036ed`](https://github.com/delucis/starlight-theme-flexoki/commit/67036ed8ecf18e62411a8c519e1f9e9aa6ed8a07) Thanks [@delucis](https://github.com/delucis)! - The minimum supported version of Starlight is now v0.32
+
+### Patch Changes
+
+- [`f6689c6`](https://github.com/delucis/starlight-theme-flexoki/commit/f6689c63585853eca4d6b2f05f564836d0f5b65c) Thanks [@delucis](https://github.com/delucis)! - Fixes a styling bug impacting badges displayed in the sidebar
+
+- [`8575568`](https://github.com/delucis/starlight-theme-flexoki/commit/8575568274a7c91f4bb7057358bf902186748d41) Thanks [@delucis](https://github.com/delucis)! - Refactors pagination styles to use an override instead of custom CSS. This fixes the top border of the pagination component displaying on pages without `prev` and `next` links.
+
 ## 0.0.4
 
 ### Patch Changes
