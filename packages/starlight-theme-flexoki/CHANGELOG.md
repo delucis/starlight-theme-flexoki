@@ -1,5 +1,15 @@
 # starlight-theme-flexoki
 
+## 0.0.4
+
+### Patch Changes
+
+- [`8f38a23`](https://github.com/delucis/starlight-theme-flexoki/commit/8f38a2343dc62ba0cd7fa84224033b471633b8e6) Thanks [@delucis](https://github.com/delucis)! - Adds styles for Starlight’s banner component
+
+- [`5c1df07`](https://github.com/delucis/starlight-theme-flexoki/commit/5c1df0770c646faf004c18c95c8eec4a92a6b583) Thanks [@delucis](https://github.com/delucis)! - Adds custom styles for the `<LinkCard>` component
+
+- [`c746a23`](https://github.com/delucis/starlight-theme-flexoki/commit/c746a239f6b93d4b3098cdae3a6958db7269470a) Thanks [@delucis](https://github.com/delucis)! - Makes asides slightly more vibrant to help them stand out
+
 ## 0.0.3
 
 ### Patch Changes
