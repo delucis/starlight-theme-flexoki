@@ -1,26 +1,33 @@
 ---
 title: Tabs
+pagefind: false
 ---
 
-import { Tabs, TabItem } from '@astrojs/starlight/components';
+import { Tabs, TabItem } from '@astrojs/starlight/components'
+
+## No icons
+
+A tabbed interface rendered with the [`<Tabs>` and `<TabItem>` components](https://starlight.astro.build/components/tabs/).
 
 <Tabs>
-	<TabItem label="Lorem">
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ornare ante est, eget molestie
-		arcu euismod eu. Suspendisse ac tincidunt tellus, sed vehicula eros.
-	</TabItem>
-	<TabItem label="Ipsum">
-		Nam condimentum, lorem eget scelerisque pellentesque, arcu sapien fringilla ligula, eget dictum
-		lectus odio in mi.
-	</TabItem>
+  <TabItem label="A tab">
+    The first tab content that can use **any** other Markdown syntax.
+  </TabItem>
+  <TabItem label="Another tab">
+    The content of the second tab that can also use **any** other Markdown syntax.
+  </TabItem>
 </Tabs>
 
-<Tabs syncKey="pkg">
+## With icons
+
+A tabbed interface rendered with the [`<Tabs>` and `<TabItem>` components](https://starlight.astro.build/components/tabs/) and [icons](https://starlight.astro.build/components/tabs/#add-icons-to-tabs).
+
+<Tabs>
 
 <TabItem label="npm" icon="seti:npm">
 
 ```sh
-npm install starlight-theme-flexoki
+npm install starlight-minimalistic-theme
 ```
 
 </TabItem>
@@ -28,7 +35,7 @@ npm install starlight-theme-flexoki
 <TabItem label="pnpm" icon="pnpm">
 
 ```sh
-pnpm add starlight-theme-flexoki
+pnpm add starlight-minimalistic-theme
 ```
 
 </TabItem>
@@ -36,7 +43,7 @@ pnpm add starlight-theme-flexoki
 <TabItem label="Yarn" icon="seti:yarn">
 
 ```sh
-yarn add starlight-theme-flexoki
+yarn add starlight-minimalistic-theme
 ```
 
 </TabItem>
