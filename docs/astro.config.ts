@@ -9,9 +9,13 @@ export default defineConfig({
 		starlight({
 			title: 'Starlight Flexoki',
 			description: 'A warm and friendly Starlight theme based on the Flexoki colour palette',
-			social: {
-				github: 'https://github.com/delucis/starlight-theme-flexoki',
-			},
+      social: [
+        {
+          icon: "github",
+          label: "GitHub",
+          href: "https://github.com/delucis/starlight-theme-flexoki",
+        }
+      ],
 			editLink: {
 				baseUrl: 'https://github.com/delucis/starlight-theme-flexoki/edit/main/docs/',
 			},
