@@ -198,7 +198,7 @@
 
   /* Headings */
   h1#_top,
-  .sl-markdown-content :is(h1, h2, h3, h4, h5, h6):not(:where(.not-content *)) {
+  .sl-markdown-content :is(:is(h1, h2, h3, h4, h5, h6), .sl-heading-wrapper > :is(h1, h2, h3, h4, h5, h6)):not(:where(.not-content *)) {
     font-weight: 500;
   }
 
@@ -206,7 +206,7 @@
     font-size: var(--sl-text-body);
 
     /* Links */
-    a:not(:where(.not-content *)) {
+    a:not(:is(.sl-link-button, :where(.not-content *))) {
       color: var(--sl-color-text);
       text-underline-offset: 0.15em;
 
@@ -231,7 +231,7 @@
       margin-top: 1em;
     }
     /* Headings after non-headings have more spacing. */
-    :not(h1, h2, h3, h4, h5, h6) + :is(h1, h2, h3, h4, h5, h6):not(:where(.not-content *)) {
+    :not(h1, h2, h3, h4, h5, h6, .sl-heading-wrapper) + :is(h1, h2, h3, h4, h5, h6, .sl-heading-wrapper):not(:where(.not-content *)) {
       margin-top: 1.5em;
     }
     li + li:not(:where(.not-content *)),
@@ -268,6 +268,9 @@
       font-size: var(--sl-text-base);
       font-weight: 500;
     }
+    .starlight-aside__title + .starlight-aside__content {
+      margin-top: .5rem;
+    }
     .starlight-aside__icon {
       font-size: var(--sl-text-lg);
     }
@@ -299,6 +302,10 @@
         border: 0;
         padding: 0;
         background-color: transparent;
+      }
+
+      .body {
+        margin: 0;
       }
     }
 
