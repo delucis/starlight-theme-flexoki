@@ -7,15 +7,17 @@
 	"type": "module",
 	"exports": {
 		".": "./index.ts",
-		"./styles.css": "./styles.css",
+		"./styles/base.css": "./styles/base.css",
+		"./styles/layers.css": "./styles/layers.css",
+		"./styles/theme.css": "./styles/theme.css",
 		"./accent-themes/*": "./accent-themes/*"
 	},
 	"devDependencies": {
-		"@astrojs/starlight": "^0.32.1",
-		"astro": "^5.2.6"
+		"@astrojs/starlight": "^0.34.3",
+		"astro": "^5.7.13"
 	},
 	"peerDependencies": {
-		"@astrojs/starlight": ">=0.32"
+		"@astrojs/starlight": ">=0.34"
 	},
 	"engines": {
 		"node": "^18.17.1 || ^20.3.0 || >=21.0.0"

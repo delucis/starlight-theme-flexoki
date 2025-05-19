@@ -10,7 +10,7 @@ if (!prev && !next) {
 }
 ---
 
-<div class="pagination-links" {dir}>
+<div class="pagination-links print:hidden" {dir}>
 	{
 		prev && (
 			<a href={prev.href} rel="prev" class="sl-flex">
@@ -36,44 +36,46 @@ if (!prev && !next) {
 </div>
 
 <style>
-	.pagination-links {
-		display: flex;
-		gap: 1rem;
-		border-top: 1px solid var(--sl-flexoki-shadow-shade);
-		padding-block: 2rem;
-	}
+  @layer flexoki {
+    .pagination-links {
+      display: flex;
+      gap: 1rem;
+      border-top: 1px solid var(--sl-flexoki-shadow-shade);
+      padding-block: 2rem;
+    }
 
-	a {
-		flex-direction: column;
-		font-size: var(--sl-text-body-sm);
-		text-decoration: none;
-		color: var(--sl-color-gray-3);
-		width: 100%;
-		flex-grow: 1;
+    a {
+      flex-direction: column;
+      font-size: var(--sl-text-body-sm);
+      text-decoration: none;
+      color: var(--sl-color-gray-3);
+      width: 100%;
+      flex-grow: 1;
 
-		&[rel='next'] {
-			align-items: flex-end;
-		}
+      &[rel='next'] {
+        align-items: flex-end;
+      }
 
-		&:hover,
-		&:focus-visible {
-			color: var(--sl-color-text);
-			outline-offset: 0.375rem;
-		}
-	}
-	.eyebrow {
-		align-items: center;
-		gap: 0.1875rem;
-	}
-	svg {
-		margin-inline: -0.1875em 0;
-		[rel='next'] & {
-			margin-inline: 0 -0.1875em;
-		}
-	}
-	.link-title {
-		font-size: var(--sl-text-lg);
-		line-height: var(--sl-line-height-headings);
-		font-weight: 600;
-	}
+      &:hover,
+      &:focus-visible {
+        color: var(--sl-color-text);
+        outline-offset: 0.375rem;
+      }
+    }
+    .eyebrow {
+      align-items: center;
+      gap: 0.1875rem;
+    }
+    svg {
+      margin-inline: -0.1875em 0;
+      [rel='next'] & {
+        margin-inline: 0 -0.1875em;
+      }
+    }
+    .link-title {
+      font-size: var(--sl-text-lg);
+      line-height: var(--sl-line-height-headings);
+      font-weight: 600;
+    }
+  }
 </style>

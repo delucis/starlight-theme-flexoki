@@ -18,8 +18,10 @@ export default function starlightThemeFlexoki({
 				// Register the theme’s custom CSS, including any user CSS *after* our own.
 				const newConfig = {
 					customCss: [
+						'starlight-theme-flexoki/styles/layers.css',
+						'starlight-theme-flexoki/styles/theme.css',
+						'starlight-theme-flexoki/styles/base.css',
 						`starlight-theme-flexoki/accent-themes/${accentColor}.css`,
-						'starlight-theme-flexoki/styles.css',
 						...(config.customCss || []),
 					],
 					components: {
