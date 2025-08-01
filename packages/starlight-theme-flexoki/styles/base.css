@@ -215,6 +215,10 @@
       }
     }
 
+    .sl-link-button:is(.secondary, .minimal):hover {
+        color: var(--sl-color-text-accent);
+    }
+
     /* Blockquote */
     blockquote:not(:where(.not-content *)) {
       border-inline-start-width: 2px;
