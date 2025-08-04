@@ -1,12 +1,14 @@
-:root,
-::backdrop {
-	--sl-color-accent-low: var(--color-yellow-900);
-	--sl-color-accent: var(--color-yellow-300);
-	--sl-color-accent-high: var(--color-yellow-150);
-}
-:root[data-theme='light'],
-[data-theme='light'] ::backdrop {
-	--sl-color-accent-high: var(--color-yellow-800);
-	--sl-color-accent: var(--color-yellow-700);
-	--sl-color-accent-low: var(--color-yellow-50);
+@layer flexoki {
+  :root,
+  ::backdrop {
+    --sl-color-accent-low: var(--color-yellow-900);
+    --sl-color-accent: var(--color-yellow-300);
+    --sl-color-accent-high: var(--color-yellow-150);
+  }
+  :root[data-theme='light'],
+  [data-theme='light'] ::backdrop {
+    --sl-color-accent-high: var(--color-yellow-800);
+    --sl-color-accent: var(--color-yellow-700);
+    --sl-color-accent-low: var(--color-yellow-50);
+  }
 }
