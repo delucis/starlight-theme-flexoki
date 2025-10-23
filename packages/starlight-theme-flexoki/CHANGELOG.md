@@ -1,5 +1,11 @@
 # starlight-theme-flexoki
 
+## 0.2.1
+
+### Patch Changes
+
+- [#18](https://github.com/delucis/starlight-theme-flexoki/pull/18) [`5dabcaf`](https://github.com/delucis/starlight-theme-flexoki/commit/5dabcaf3da0203a4d838e293d0263fa697218d59) Thanks [@delucis](https://github.com/delucis)! - No code changes. This release is the first published using OIDC trusted publisher configuration for improved security.
+
 ## 0.2.0
 
 ### Minor Changes
