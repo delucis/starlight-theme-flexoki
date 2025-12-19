@@ -19,9 +19,6 @@
     background-color: var(--sl-color-gray-7, var(--sl-color-gray-6));
     box-shadow: var(--sl-flexoki-emboss-shadow);
   }
-  [data-theme='dark'] starlight-menu-button[aria-expanded='true'] button {
-    color: var(--sl-color-text-invert);
-  }
 
   /* Sidebar */
   .sidebar-pane {
