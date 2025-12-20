@@ -1,5 +1,11 @@
 # starlight-theme-flexoki
 
+## 0.2.2
+
+### Patch Changes
+
+- [#70](https://github.com/delucis/starlight-theme-flexoki/pull/70) [`36bcc77`](https://github.com/delucis/starlight-theme-flexoki/commit/36bcc77b7cfd8705e5ce5270d0178150f0d9133c) Thanks [@cnaples79](https://github.com/cnaples79)! - Fixes dark mode icon contrast in the navigation menu close button
+
 ## 0.2.1
 
 ### Patch Changes
