@@ -22,6 +22,6 @@
   },
   "scripts": {
     "ci-version": "changeset version && pnpm install --no-frozen-lockfile",
-		"ci-publish": "changeset publish"
+    "ci-publish": "changeset publish"
   }
 }
