@@ -13,8 +13,8 @@
 		"./accent-themes/*": "./accent-themes/*"
 	},
 	"devDependencies": {
-		"@astrojs/starlight": "^0.38.3",
-		"astro": "^6.1.5"
+		"@astrojs/starlight": "^0.38.4",
+		"astro": "^6.1.9"
 	},
 	"peerDependencies": {
 		"@astrojs/starlight": ">=0.34"
