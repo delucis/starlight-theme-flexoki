@@ -18,7 +18,7 @@
   "bugs": "https://github.com/delucis/starlight-theme-flexoki/issues",
   "devDependencies": {
     "@changesets/changelog-github": "^0.6.0",
-    "@changesets/cli": "^2.30.0"
+    "@changesets/cli": "^2.31.0"
   },
   "scripts": {
     "ci-version": "changeset version && pnpm install --no-frozen-lockfile",
