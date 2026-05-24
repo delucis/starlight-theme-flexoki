@@ -41,7 +41,7 @@ export default defineConfig({
 					label: 'Start Here',
 					items: ['getting-started', 'configuration'],
 				},
-				{ label: 'Examples', autogenerate: { directory: 'examples' } },
+				{ label: 'Examples', items: [{ autogenerate: { directory: 'examples' } }] },
 			],
 		}),
 	],
