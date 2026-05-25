@@ -19,7 +19,7 @@ importers:
     dependencies:
       '@astrojs/starlight':
         specifier: ^0.39.2
-        version: 0.39.2(astro@6.3.7(@types/node@24.10.1)(rollup@4.53.3))(typescript@5.7.3)
+        version: 0.39.2(astro@6.3.7(@types/node@24.10.1)(rollup@4.53.3))
       astro:
         specifier: ^6.3.6
         version: 6.3.7(@types/node@24.10.1)(rollup@4.53.3)
@@ -34,7 +34,7 @@ importers:
     devDependencies:
       '@astrojs/starlight':
         specifier: ^0.39.2
-        version: 0.39.2(astro@6.3.7(@types/node@24.10.1)(rollup@4.53.3))(typescript@5.7.3)
+        version: 0.39.2(astro@6.3.7(@types/node@24.10.1)(rollup@4.53.3))
       astro:
         specifier: ^6.3.6
         version: 6.3.7(@types/node@24.10.1)(rollup@4.53.3)
@@ -1927,11 +1927,6 @@ packages:
   tslib@2.8.1:
     resolution: {integrity: sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==}
 
-  typescript@5.7.3:
-    resolution: {integrity: sha512-84MVSjMEHP+FQRPy3pX9sTVV/INIex71s9TL2Gm5FG/WG1SqXeKyZ0k7/blY/4FdOzI12CBy1vGc4og/eus0fw==}
-    engines: {node: '>=14.17'}
-    hasBin: true
-
   ufo@1.6.3:
     resolution: {integrity: sha512-yDJTmhydvl5lJzBmy/hyOAA0d+aqCBuwl818haVdYCRrWV84o7YyeVm4QlVHStqNrrJSTb6jKuFAVqAFsr+K3Q==}
 
@@ -2204,7 +2199,7 @@ snapshots:
       stream-replace-string: 2.0.0
       zod: 4.3.6
 
-  '@astrojs/starlight@0.39.2(astro@6.3.7(@types/node@24.10.1)(rollup@4.53.3))(typescript@5.7.3)':
+  '@astrojs/starlight@0.39.2(astro@6.3.7(@types/node@24.10.1)(rollup@4.53.3))':
     dependencies:
       '@astrojs/markdown-remark': 7.1.2
       '@astrojs/mdx': 5.0.6(astro@6.3.7(@types/node@24.10.1)(rollup@4.53.3))
@@ -2220,7 +2215,7 @@ snapshots:
       hast-util-select: 6.0.4
       hast-util-to-string: 3.0.1
       hastscript: 9.0.1
-      i18next: 26.2.0(typescript@5.7.3)
+      i18next: 26.2.0
       js-yaml: 4.1.1
       klona: 2.0.6
       magic-string: 0.30.21
@@ -3554,9 +3549,7 @@ snapshots:
 
   human-id@4.1.1: {}
 
-  i18next@26.2.0(typescript@5.7.3):
-    optionalDependencies:
-      typescript: 5.7.3
+  i18next@26.2.0: {}
 
   iconv-lite@0.7.0:
     dependencies:
@@ -4620,9 +4613,6 @@ snapshots:
   trough@2.2.0: {}
 
   tslib@2.8.1:
-    optional: true
-
-  typescript@5.7.3:
     optional: true
 
   ufo@1.6.3: {}
