@@ -1,38 +1,38 @@
 ---
-import { Icon } from "@astrojs/starlight/components";
+import { Icon } from '@astrojs/starlight/components';
 
 const { dir, pagination } = Astro.locals.starlightRoute;
 const { prev, next } = pagination;
-const isRtl = dir === "rtl";
+const isRtl = dir === 'rtl';
 
 if (!prev && !next) {
-  return;
+	return;
 }
 ---
 
 <div class="pagination-links print:hidden" {dir}>
-  {
-    prev && (
-      <a href={prev.href} rel="prev" class="sl-flex">
-        <span class="eyebrow sl-flex">
-          <Icon name={isRtl ? "right-arrow" : "left-arrow"} size="1.5em" />
-          {Astro.locals.t("page.previousLink")}
-        </span>
-        <span class="link-title">{prev.label}</span>
-      </a>
-    )
-  }
-  {
-    next && (
-      <a href={next.href} rel="next" class="sl-flex">
-        <span class="eyebrow sl-flex">
-          {Astro.locals.t("page.nextLink")}
-          <Icon name={isRtl ? "left-arrow" : "right-arrow"} size="1.5em" />
-        </span>
-        <span class="link-title">{next.label}</span>
-      </a>
-    )
-  }
+	{
+		prev && (
+			<a href={prev.href} rel="prev" class="sl-flex">
+				<span class="eyebrow sl-flex">
+					<Icon name={isRtl ? 'right-arrow' : 'left-arrow'} size="1.5em" />
+					{Astro.locals.t('page.previousLink')}
+				</span>
+				<span class="link-title">{prev.label}</span>
+			</a>
+		)
+	}
+	{
+		next && (
+			<a href={next.href} rel="next" class="sl-flex">
+				<span class="eyebrow sl-flex">
+					{Astro.locals.t('page.nextLink')}
+					<Icon name={isRtl ? 'left-arrow' : 'right-arrow'} size="1.5em" />
+				</span>
+				<span class="link-title">{next.label}</span>
+			</a>
+		)
+	}
 </div>
 
 <style>
@@ -52,7 +52,7 @@ if (!prev && !next) {
       width: 100%;
       flex-grow: 1;
 
-      &[rel="next"] {
+      &[rel='next'] {
         align-items: flex-end;
         text-align: end;
       }
@@ -69,7 +69,7 @@ if (!prev && !next) {
     }
     svg {
       margin-inline: -0.1875em 0;
-      [rel="next"] & {
+      [rel='next'] & {
         margin-inline: 0 -0.1875em;
       }
     }
