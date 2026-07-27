@@ -1,5 +1,11 @@
 # starlight-theme-flexoki
 
+## 0.2.3
+
+### Patch Changes
+
+- [#137](https://github.com/delucis/starlight-theme-flexoki/pull/137) [`be189d1`](https://github.com/delucis/starlight-theme-flexoki/commit/be189d1cca84ac45c39fce43353bb233aaa3192b) Thanks [@kydecker](https://github.com/kydecker)! - Fix text alignment in pagination when page titles wrap to multiple lines
+
 ## 0.2.2
 
 ### Patch Changes
