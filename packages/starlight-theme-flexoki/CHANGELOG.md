@@ -1,5 +1,17 @@
 # starlight-theme-flexoki
 
+## 0.3.0
+
+### Minor Changes
+
+- [#156](https://github.com/delucis/starlight-theme-flexoki/pull/156) [`f5f4417`](https://github.com/delucis/starlight-theme-flexoki/commit/f5f44176d271bfcb5772198714a6ae29cd0402e4) Thanks [@HiDeoo](https://github.com/HiDeoo)! - ⚠️ **BREAKING CHANGE:** The minimum supported version of Starlight is now version `0.42.0`.
+  
+  Please use the `@astrojs/upgrade` command to upgrade your project:
+  
+  ```sh
+  npx @astrojs/upgrade
+  ```
+
 ## 0.2.3
 
 ### Patch Changes
